@@ -1,0 +1,18 @@
+{
+  "eventName": "sendgps",
+  "url": "https://groker.initialstate.com/api/events",
+  "requestType": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "X-IS-AccessKey": "YOUR_ACCESS_KEY",
+    "X-IS-BucketKey": "electronstream",
+    "Accept-Version": "0.0.2"
+  },
+  "json": {
+      "key":      "Coordinates",
+      "value":    "{{SPARK_EVENT_VALUE}}"
+  },
+    "mydevices": true,
+    "deviceid": "YOUR_DEVICE_ID",
+    "noDefaults": true
+}
