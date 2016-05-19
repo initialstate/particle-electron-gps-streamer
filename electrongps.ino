@@ -94,7 +94,7 @@ void loop()
   
   // Wait 60 seconds
   smartDelay(60000);
-  }
+  
 
   if (millis() > 5000 && gps.charsProcessed() < 10)
     Serial.println(F("No GPS data received: check wiring"));
